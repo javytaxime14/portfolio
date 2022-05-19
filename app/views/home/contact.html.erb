@@ -1,0 +1,26 @@
+div class="container pt-4 pl-3">
+    <h1 class="py-5 px-5"> Want to contact me?</h1>
+    <div class="row py-5">
+        <div class="col-md-6">
+            <%= image_tag 'contact', class: 'img-responsive contact-pic', alt: 'Contact', width: 340, height: 320 %>
+        </div>
+        <div class="col-md-6 my-1 px-5">
+            <h3 class="mb-2">You can find me on:</h3>
+              <div class="row mt-5">
+                <div class="col-md-3 contact-icon">
+                    <%= link_to image_tag('email.jpg', class: 'img-responsive', alt: 'email', width: 40, height: 40), 'mailto:javiera_56@hotmail.com'%>
+                </div>
+                <div class="col-md-3 contact-icon">
+                    <%= link_to image_tag('github.png', class: 'img-responsive', alt: 'github', width: 40, height: 40), 'https://www.github.com/javytaxime14', target: '_blank' %>
+                </div>
+                <div class="col-md-3 contact-icon">
+                    <%= link_to image_tag('linkedin.png', class: 'img-responsive', alt: 'linkedin', width: 40, height: 40), 'https://www.linkedin.com/in/javierahidalgonunez/', target: '_blank' %>
+                </div>
+                <div class="col-md-3 contact-icon">
+                    <%= link_to image_tag('whatsapp.png', class: 'img-responsive', alt: 'whatsapp', width: 40, height: 40), 'https://api.whatsapp.com/send?phone=56957926474', target: '_blank' %>
+              </div>
+        </div>
+    </div>
+</div>
+                
+         

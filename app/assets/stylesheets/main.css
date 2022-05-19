@@ -1,0 +1,94 @@
+.navbar-nav {
+    margin-right: 65px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar-brand {
+    margin-left: 38px;
+}
+
+.nav-logo {
+    width: 85px;
+    height: 80px;
+}
+
+.nav-link {
+    margin-right: 15px;
+}
+
+.main {
+    margin-top: 70px;
+}
+
+.title {
+    margin-top: 110px;
+}
+
+.main-pic {
+    margin-top: 80px;
+    width: 230px;
+    height: 230px;
+}
+
+.header {
+    margin-top: 25px;
+    background-color: rgb(153, 69, 61);
+    padding-top: 7px;
+    padding-bottom: 25px;
+}
+
+.btn-custom {
+    background-color: rgb(102, 14, 7);
+    color: white;
+    border-radius: 20px;
+    border: 2px solid rgb(192, 65, 53);
+    border-style: groove;
+    padding: 5px 30px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.carousel-indicators {
+    top: 200px;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+}
+.carousel-indicators .active {
+    background-color: rgb(88, 85, 85);
+}
+
+.see-more {
+    margin-top: -45px;
+    margin-left: 107px;
+}
+
+.about-img {
+    width: 300px;
+    height: 300px;
+    margin-top: 120px;
+}
+
+.desc {
+    margin-top: 125px;
+    padding-left: 25px;
+}
+
+.desc-2 {
+    padding-left: 25px;
+}
+
+.contact-pic {
+    margin-left: 80px;
+    margin-top: -10px;
+}
+
+.contact-icon {
+    padding-left: -500px;
+    padding-right: -500px;
+}
+

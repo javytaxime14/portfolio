@@ -1,0 +1,30 @@
+<div class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                    <%= image_tag "javiera.jpg", class: "img-fluid rounded-circle mx-auto d-block main-pic", alt: "Javiera Hidalgo" %>
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <%= button_to "Work", my_work_path, class: "btn btn-custom btn-sm pl-1", method: "get" %>
+                    </div>
+                    <div class="col-md-6">
+                        <%= button_to "Contact", contact_path, class: "btn btn-custom btn-sm", method: "get" %>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h1 class="title display-5 text-white justify-content-start"> Hi, my name is </h1>
+                <h1 class="display-2 text-white justify-content-start"> Javiera Hidalgo </h1>
+                <p class="mt-5 text-white justify-content-start"> Junior front end developer </p>
+                <p class="text-white justify-content-start"> Junior full stack Ruby on Rails developer</p> 
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <h1 class="text-center mt-5 mb-1"> Some of my work </h1>
+    <%= render 'shared/carousel' %>
+    <%= button_to "See more", my_work_path, class: "btn btn-custom btn-sm see-more", method: "get" %>
+</div>
+
