@@ -5,10 +5,10 @@
                     <%= image_tag "javiera.jpg", class: "img-fluid rounded-circle mx-auto d-block main-pic", alt: "Javiera Hidalgo" %>
                 <div class="row mt-4">
                     <div class="col-md-6">
-                        <%= button_to "Work", my_work_path, class: "btn btn-custom btn-sm pl-1", method: "get" %>
+                        <%= button_to "Work", contact_new_path, class: "btn btn-custom btn-sm pl-1" %>
                     </div>
                     <div class="col-md-6">
-                        <%= button_to "Contact", contact_path, class: "btn btn-custom btn-sm", method: "get" %>
+                        <%= button_to "Contact", contact_new_path, class: "btn btn-custom btn-sm" %>
                     </div>
                 </div>
             </div>
@@ -25,6 +25,8 @@
 <div class="container-fluid">
     <h1 class="text-center mt-5 mb-1"> Some of my work </h1>
     <%= render 'shared/carousel' %>
-    <%= button_to "See more", my_work_path, class: "btn btn-custom btn-sm see-more", method: "get" %>
+    <%= button_to "See more", contact_new_path, class: "btn btn-custom btn-sm see-more" %>
 </div>
 
+
+    

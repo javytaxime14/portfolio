@@ -6,9 +6,5 @@ class HomeController < ApplicationController
   end
 
   def my_work
- 
-  end
-
-  def certificates
   end
 end
