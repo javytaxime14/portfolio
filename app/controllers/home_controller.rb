@@ -7,4 +7,12 @@ class HomeController < ApplicationController
 
   def my_work
   end
+
+  def certificates
+  end
+
+  def contact_me
+  end
+  
+
 end
